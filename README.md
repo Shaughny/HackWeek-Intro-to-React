@@ -1,5 +1,6 @@
 # ConUHacks' Hackweek Introduction to React
 ## Expense tracking React starter project
+* Designed to help gain familiarity with the basic features and functionalites of ReactJS
 ## Getting Started with React 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
