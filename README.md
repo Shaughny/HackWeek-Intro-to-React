@@ -7,15 +7,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-After cloning this repo, you must run  ### `npm install` 
+After cloning this repo, you need to install all dependencies by running this command in the project directory:  
 
-to install all dependencies, then:
+### `npm install` 
 
-In the project directory, you can run:
+Then in the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+This runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
