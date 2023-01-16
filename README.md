@@ -5,6 +5,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Before trying to set up the project, make sure you have `Node` installed on your machine.
 ## Available Scripts
 
 After cloning this repo, you need to install all dependencies by running this command in the project directory:  
