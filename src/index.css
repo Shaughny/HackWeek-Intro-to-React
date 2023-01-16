@@ -41,7 +41,12 @@ nav li button{
 nav li button:hover{
   scale: 105%;
 }
-
+#new-income{
+  color: green;
+}
+#new-expense{
+  color: rgb(162, 33, 33);
+}
 #expense{
   background-color: red;
 }
@@ -76,17 +81,27 @@ h2,h3{
   border: 2px solid black;
 }
 .list ul{
-  text-align: center;
+  
 }
 .list{
   margin: auto;
-  width: 50%;
+  width: 40%;
+  
 }
 .list li{
+  text-align: center;
+  display: flex;
   margin: 10px 0;
+  justify-content: space-evenly; 
 }
 .list-amount, .list-title, .list button{
-  margin: 20px;
+
+}
+.list-title{
+  font-weight: bolder;
+}
+.list-amount{
+  font-style:oblique;
 }
 .overview{
   display: flex;
@@ -103,6 +118,9 @@ h2,h3{
 #remainder{
   font-size: 4vw;
 }
+#remainder-amount{
+  color: rgb(78, 127, 5);
+}
 h3{
   font-size: 1.5vw;
 }
@@ -117,10 +135,13 @@ h3{
   font-size: 1.1vw;
 }
 .delete-button:hover{
-  scale: 185%;
+  scale: 105%;
 }
 .empty-list{
   font-size: 1.2vw;
   text-align: center;
   color: rgb(199, 82, 40);
+}
+li.menu-item:not(:last-child) { 
+  margin-bottom: 3px;  
 }

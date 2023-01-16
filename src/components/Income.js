@@ -21,7 +21,7 @@ export const Income = ({ income, setIncome }) => {
 
   return (
     <div>
-      <h2>New Income</h2>
+      <h2 id="new-income">New Income</h2>
       <div className="inputs">
         <label>Title</label>
         <input type="text" value={title} onChange={handleTitle}></input>

@@ -47,8 +47,8 @@ export const Overview = ({ expenses, income }) => {
       </div>
       <div>
         <h2 id="remainder">
-          Remainder: $
-          {totalIncome - totalExpenses < 0 ? 0 : totalIncome - totalExpenses}
+          Leftover: <span id="remainder-amount">$
+          {totalIncome - totalExpenses < 0 ? 0 : totalIncome - totalExpenses}</span>
         </h2>
       </div>
     </div>
