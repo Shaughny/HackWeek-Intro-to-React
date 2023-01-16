@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 export const Overview = ({ expenses, income }) => {
   let totalIncome = 0;
@@ -51,6 +51,7 @@ export const Overview = ({ expenses, income }) => {
           {totalIncome - totalExpenses < 0 ? 0 : totalIncome - totalExpenses}</span>
         </h2>
       </div>
+      
     </div>
   );
 };

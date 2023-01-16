@@ -88,7 +88,7 @@ h2,h3{
   width: 40%;
   
 }
-.list li{
+.list li, .currencies li{
   text-align: center;
   display: flex;
   margin: 10px 0;
@@ -144,4 +144,9 @@ h3{
 }
 li.menu-item:not(:last-child) { 
   margin-bottom: 3px;  
+}
+
+.currencies .overview{
+  
+  width: 50%;
 }
