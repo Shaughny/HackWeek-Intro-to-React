@@ -1,4 +1,6 @@
 # ConUHacks' Hackweek Introduction to React
+![image](https://user-images.githubusercontent.com/77257371/213037249-01ca89fc-b23b-44fe-97e9-9650e87552fd.png)
+
 ## Expense tracking React starter project
 Designed to help gain familiarity with the basic features and functionalities of React
 ## Getting Started with React 
