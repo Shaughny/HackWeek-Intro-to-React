@@ -124,7 +124,7 @@ h2,h3{
   border: 2px solid green;
 }
 #remainder{
-  font-size: 3vw;
+  font-size: 50px;
 }
 #remainder-amount{
   color: rgb(78, 127, 5);
@@ -152,16 +152,21 @@ h3{
 }
 .total-title{
   font-size: 35px;
-  border-bottom: 3px dotted black;
+  font-style: italic;
 }
-.total-title span{
-  text-decoration: none;
+.income-col li{
+  color: green;
+}
+.expense-col li{
+  color: red;
 }
 .list-item{ 
   
 }
-
+.currencies{
+  margin-top: 100px;
+}
 .currencies .overview{
-  
-  width: 50%;
+  font-size: 25px;
+  width: 60%;
 }
