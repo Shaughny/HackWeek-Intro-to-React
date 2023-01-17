@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Before trying to set up the project, make sure you have `Node` and `npm` installed on your machine.
 if you don't have it installed, you can either download an installer from this link for Windows and Mac: https://nodejs.org/en/download/
 or for those on linux or using homebrew on Mac, you can install it using the terminal with your package manager.
-```sudo apt ```
+
 ## Available Scripts
 
 After cloning this repo, you need to install all dependencies by running this command in the project directory:  
