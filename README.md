@@ -6,7 +6,9 @@ Designed to help gain familiarity with the basic features and functionalities of
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Before trying to set up the project, make sure you have `Node` installed on your machine.
-if you don't have it installed, follow the instructions at the following link: https://nodejs.org/en/download/
+if you don't have it installed, you can either download an installer from this link for Windows and Mac: https://nodejs.org/en/download/
+or for those on linux or using homebrew on Mac, you can install it using the terminal with your package panager.
+```sudo apt ```
 ## Available Scripts
 
 After cloning this repo, you need to install all dependencies by running this command in the project directory:  
