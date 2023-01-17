@@ -16,10 +16,10 @@ export const Overview = ({ expenses, income }) => {
 
   return (
     <div>
-      <h2>Total Overview</h2>
+      <h2 className="tab-title">Overview</h2>
       <div className="overview">
         <div className="column expense-col">
-          <h3 id="total-expense">Total Expenses: ${totalExpenses}</h3>
+          <h3 className="total-title">Total Expenses: ${totalExpenses}</h3>
           <div className="list">
         <ul>
           {expenses.map((expense) => (
@@ -32,7 +32,7 @@ export const Overview = ({ expenses, income }) => {
       </div>
         </div>
         <div className="column income-col">
-          <h3 id="total-income">Total Income: ${totalIncome}</h3>
+          <h3 className="total-title">Total Income: ${totalIncome}</h3>
           <div className="list">
         <ul>
           {income.map((income) => (
