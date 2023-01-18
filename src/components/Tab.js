@@ -2,18 +2,18 @@ import React, { useState } from "react";
 
 export const Tab = ({ values, setValues, type}) => {
   const [title, setTitle] = useState("");
-  const [amount, setamount] = useState("");
+  const [amount, setAmount] = useState("");
 
   const handleAdd = () => {
     setValues([...values, { title: title, amount: amount }]);
     setTitle("");
-    setamount("");
+    setAmount("");
   };
   const handleTitle = (event) => {
     setTitle(event.target.value);
   };
   const handleAmount = (event) => {
-    setamount(event.target.value);
+    setAmount(event.target.value);
   };
   const handleDelete = (key) => {
     setValues(values.filter((value) => value.title !== key));
