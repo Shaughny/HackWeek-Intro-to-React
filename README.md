@@ -8,8 +8,8 @@ Designed to help gain familiarity with the basic features and functionalities of
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Recommended Development Setup
-Visual Studio Code -> https://code.visualstudio.com/download
-React Snippets extension for VS Code -> https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
+* Visual Studio Code -> https://code.visualstudio.com/download
+* React Snippets extension for VS Code -> https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets
 
 ## Before trying to set up the project, make sure you have `Node` and `npm` installed on your machine.
 if you don't have it installed, you can either download an installer from this link for Windows and Mac: https://nodejs.org/en/download/
